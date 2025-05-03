@@ -17,7 +17,7 @@ defmodule Mix.Tasks.Dbman.Start do
   use Mix.Task
 
   @shortdoc "Starts the project database server"
-  @requirements ["db.init"]
+  @requirements ["dbman.init"]
 
   def run(_args) do
     shell = Mix.shell()
